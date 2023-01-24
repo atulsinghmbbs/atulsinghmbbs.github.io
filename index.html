@@ -24,6 +24,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
 
+	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+	<!-- Includes the Styling (Include the CSS for GitHub Files) -->
+	<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+	
+
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
@@ -183,12 +190,63 @@
 <div style="width:90%;"  data-aos="fade-up" data-aos-delay="400" class="calendar">
 </div>
 
+
+
+
+
+    <!-- <h2 id="github" style="color: grey; margin-bottom: 30px; margin-top: 60px;"> Github Statistics </h2> -->
+    <div style="justify-content: space-evenly; display: flex; margin-top: 100px; flex-wrap: wrap;">
+
+    <!-- GitHub Statistics -->
+    <a href="https://git.io/streak-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atulsinghmbbs" id="streak"/></a>
+
+ 
+    <a href="https://github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=atulsinghmbbs" id="streak"/></a>
+
+      
+    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=atulsinghmbbs"style="margin-top:30px" id="streak"/ ></a>
+   
+</div>
+    
+
+
+	
+
+    <!-- GitHub Calendar -->
+    <!-- <div style="background-color:white; font-size: 20px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;"
+        class="calendar">
+        Loading the data just for you...
+    </div> -->
+
+
+
 <script>
 	GitHubCalendar(".calendar", "atulsinghmbbs");
 
 	GitHubCalendar(".calendar", "atulsinghmbbs", { responsive: true });
 </script>
    <!-- Github Graph End -->
+
+   <script>
+
+
+    // To Enable responsiveness of the Calendar 
+    GitHubCalendar(".calendar", "atulsinghmbbs", { responsive: true });
+    function myFunction() {
+        console.log("Inside Function")
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+    
+</script>
+
+
+
 
    <div  class="STATISTICS" data-aos="fade-up" data-aos-delay="300">MY <span class="txtc">STATISTICS</span></div>
    <div class="Circular_bar">
@@ -213,28 +271,67 @@
         </div>
     		<div class="projects" style="margin-top: 5%;">
 
-				<!-- <div id="divprojects">
+				 <div id="divprojects">
 					<div id="image_div" class="image_div">
-						<img src="images\bus reservation.png" alt="">
+						<img src="images\Online-food-delivery.webp" alt="">
 					</div>
 					<div class="para_div">
-						<h3>Bus Reservation System Portal</h3>
-						<p class="projectDes">We have developed this REST API for a Bus Reservation System Portal Application. This API performs all the fundamental CRUD operations of any Bus Reservation Application platform. A collaborative project built by a team of 5, executed in 5 days.</p>
+						<h3> Food Delivery System Portal</h3>
+						<p class="projectDes">We have developed this REST API for a Food Delivery System Application. This API performs all the fundamental CRUD operations of any Food Delivery Application platform. A collaborative project built by a team of 4, executed in 5 days.</p>
 						<div id="stacks">
 							<button>JAVA</button>
 							<button>SPRINGBOOT</button>
 							<button>MYSQL</button>
-							<button>LAMBOOK</button>
+							<button>LAMBOK</button>
+                             <button>JPA</button>
 						</div>
 
 						<div id="delbtns">
-							<a href="https://github.com/vinaykumar2n/succinct-wrench-1095" target="_blank"><button class="button-84">Code</button></a>
-							<a href="https://github.com/vinaykumar2n/succinct-wrench-1095" target="_blank"><button class="button-84">Live</button></a>
+							<a href="https://github.com/bhupirao/Foodie-Express" target="_blank"><button class="button-84">Code</button></a>
+							<a href="https://github.com/bhupirao/Foodie-Express" target="_blank"><button class="button-84">Live</button></a>
 	
 						</div>
-					</div>
+					</div> 
 					
-				</div> -->
+				</div>
+
+                
+
+
+				<div id="divprojects">
+					<div id="image_div" class="image_div">
+						<img src="images\Computer-Hardware-and-Software-Support-in-Michigan-and-Indiana.jpg" alt="">
+					</div>
+					<div class="para_div">
+						<h3> Online Hardware and Software System Portal</h3>
+						<p class="projectDes">This is the backend of an online Hardware and Software Application. The user flow is implemented for 3 entities, HOD Engineer and Employee. Employee can login registered the complain .HOD can registered the Engineer and assign to problem to the engineer and Engineer can the solved the complain and Update the complain Status</p>
+						<div id="stacks">
+							<button>JAVA</button>
+							<button>MYSQL</button>
+							<button>JDBC</button>
+                            
+						</div>
+
+						<div id="delbtns">
+							<a href="https://github.com/atulsinghmbbs/-regular-teeth-9707" target="_blank"><button class="button-84">Code</button></a>
+							<a href="https://github.com/atulsinghmbbs/-regular-teeth-9707" target="_blank"><button class="button-84">Live</button></a>
+	
+						</div>
+					</div> 
+					
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 				<div>
 					<div id="image_div" class="image_div">
@@ -242,7 +339,7 @@
 					</div>
 					<div class="para_div">
 						<h3>Hotjar Clone</h3>
-						<p class="projectDes">Hotjar is an analytical website which makes the website user-friendly.A collabrative project built by a team of 6 , executed in 5 days.</p>
+						<p class="projectDes">Hotjar is an analytical website which makes the website user-friendly.A collabrative project built by a team of 5 , executed in 5 days.</p>
 						<div id="stacks">
 							<button>HTML</button>
 							<button>CSS</button>

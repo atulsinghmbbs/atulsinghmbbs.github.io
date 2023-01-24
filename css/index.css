@@ -421,5 +421,23 @@
       display: unset;
     }
 
+
     
   } 
+
+  
+  #streak{
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: 600px) and (min-width: 370px){
+    #streak{
+        flex-wrap: wrap;
+        width: 250px;
+        height: auto;
+    }
+    #streak>img{
+      height: auto;
+        flex-wrap: wrap;
+    }
+  }
+

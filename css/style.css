@@ -9728,14 +9728,7 @@ textarea.form-control {
 
 
   
-.STATISTICS{
-  font-size: 30px;
-  margin-top: 10%;
-  font-weight: 600;
-  color: #cca9f1;
-  margin-bottom: 5%;
-  text-align: center;
-}
+
 .txtc{
   color:#7566a8;
 }
@@ -9745,18 +9738,22 @@ textarea.form-control {
 }
 
 .Circular_bar{
+ 
   display: grid;
   height: auto;
-  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
+  grid-template-columns: repeat(5 , 1fr);
   grid-gap:30px;
-  grid-auto-rows: minmax(100px,auto);
-  grid-auto-columns: minmax(50px , auto);
+  margin-right: 150px;
+  /* grid-auto-rows: minmax(100px,auto);
+  grid-auto-columns: minmax(50px , auto); */
   /* border: 1px solid red ; */
- padding: 15px;
+  padding: 15px;
 
   /* margin-bottom: 10%; */
 }
 .Circular_bar > div{
+ 
   border: 10px solid #7566a8 ;
   /* width: 18%; */
   font-weight: 600;
@@ -9765,4 +9762,5 @@ textarea.form-control {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }

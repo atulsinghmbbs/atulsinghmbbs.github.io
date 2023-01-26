@@ -9728,7 +9728,14 @@ textarea.form-control {
 
 
   
-
+.STATISTICS{
+  font-size: 30px;
+  margin-top: 10%;
+  font-weight: 600;
+  color: #cca9f1;
+  margin-bottom: 5%;
+  text-align: center;
+}
 .txtc{
   color:#7566a8;
 }

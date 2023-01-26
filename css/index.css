@@ -426,7 +426,7 @@
   } 
 
   
-  #streak{
+  /* #streak{
     flex-wrap: wrap;
   }
   @media screen and (max-width: 600px) and (min-width: 370px){
@@ -439,5 +439,5 @@
       height: auto;
         flex-wrap: wrap;
     }
-  }
+  } */
 

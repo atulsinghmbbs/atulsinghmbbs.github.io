@@ -1,5 +1,6 @@
 /*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * 
+ ootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -9748,10 +9749,10 @@ textarea.form-control {
  
   display: grid;
   height: auto;
-  /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
-  grid-template-columns: repeat(5 , 1fr);
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  /* grid-template-columns: repeat(4 , 1fr); */
   grid-gap:30px;
-  margin-right: 150px;
+  /* margin-right: 150px; */
   /* grid-auto-rows: minmax(100px,auto);
   grid-auto-columns: minmax(50px , auto); */
   /* border: 1px solid red ; */
@@ -9762,7 +9763,6 @@ textarea.form-control {
 .Circular_bar > div{
  
   border: 10px solid #7566a8 ;
-  /* width: 18%; */
   font-weight: 600;
   height: 200px;
   border-radius: 50%;

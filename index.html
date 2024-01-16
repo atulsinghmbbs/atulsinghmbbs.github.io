@@ -168,6 +168,11 @@
 				</a>
 
 				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank"> 
+					<img src="images/React.png" alt="Github logo">
+					<h3 class="h3">REACT</h3>
+				</a>
+
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank"> 
 					<img src="images/mysqlworkbench_102952.svg" alt="Mysql logo">
 					<h3 class="h3">MYSQL</h3>
 				</a>
@@ -177,6 +182,15 @@
 					<h3 class="h3">GITHUB</h3>
 				</a>
 
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank"> 
+					<img src="images/junit.png" alt="Github logo">
+					<h3 class="h3">JUNIT</h3>
+				</a>
+
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank"> 
+					<img src="images/kafka.png" alt="Github logo">
+					<h3 class="h3">KAFKA</h3>
+				</a>
 				
 				</div>
 			</div>
@@ -220,31 +234,36 @@
     </div> -->
 
 
+	<script>
+		GitHubCalendar(".calendar", "atulsinghmbbs");
+	
+		GitHubCalendar(".calendar", "atulsinghmbbs", { responsive: true });
+	</script>
+	
+	
+	<script>
+	
+	
+		// To Enable responsiveness of the Calendar 
+		GitHubCalendar(".calendar", "atulsinghmbbs", { responsive: true });
+		function myFunction() {
+			console.log("Inside Function")
+			var x = document.getElementById("myLinks");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			} else {
+				x.style.display = "block";
+			}
+		}
+	
+		
+	</script>
 
-<script>
-	GitHubCalendar(".calendar", "atulsinghmbbs");
 
-	GitHubCalendar(".calendar", "atulsinghmbbs", { responsive: true });
-</script>
+
    <!-- Github Graph End -->
 
-   <script>
-
-
-    // To Enable responsiveness of the Calendar 
-    GitHubCalendar(".calendar", "atulsinghmbbs", { responsive: true });
-    function myFunction() {
-        console.log("Inside Function")
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
-
-    
-</script>
+  
 
 
 <!-- Statistics Part was Comment Out for Now -->
@@ -555,4 +574,7 @@ const handleClick = async () => {
 	  { console.error(error); } };
 
 </script>
+
+
+
 <!-- Thank you -->
